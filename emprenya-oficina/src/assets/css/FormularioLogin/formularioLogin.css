@@ -1,0 +1,38 @@
+.containerGeneral{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cajaFormulario{
+    display: flex;
+    justify-content: center;
+    background-color: #42b3f7;
+    width: 40%;
+    height: 55em;
+    margin: 11em 0em 33em;
+    border-radius: 15px;
+}
+
+.img-empren-ya{
+    width: 100%;
+}
+
+.containerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerFormulario>div{
+    margin-bottom: 15px;
+}
+
+.input-usuario{
+    border: none;
+}
+.input-pass{
+    border: none;
+}
