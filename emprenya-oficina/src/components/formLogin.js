@@ -1,6 +1,6 @@
 // Render Prop
 import React, { useState } from 'react';
-import { Form, FormGroup, Input, Button } from 'reactstrap';
+import { Form, FormGroup, Input, Button, Label } from 'reactstrap';
 import { validarLogin } from '../servicios/validarLogin'
 
 /*Estilos de componente*/
@@ -49,11 +49,15 @@ export default function Formulario() {
                         />
                     </div>
                     <div>
-                        <div>
-
-                        </div>
-                        <div>
-
+                        <div class="row m-login__form-sub container-recuerdame">
+                            <div class="col m--align-left m-login__form-left">
+                                <Label class="m-checkbox  m-checkbox--focus label-form" >
+                                    <Input type="checkbox" name="remember" id="remember" className='remember'/><span className='word-Recuerdame'>Recuérdame</span>
+                                </Label>
+                            </div>
+                            <div className="col m--align-right m-login__form-right">
+                                <a href={"/"} id="m_login_forget_password" class="m-link link-olvido-password" >Olvidó el password?</a>
+                            </div>
                         </div>
                     </div>
                     <div>
