@@ -1,0 +1,121 @@
+.containerGeneral{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cajaFormulario{
+    display: flex;
+    justify-content: center;
+    background-color: #42b3f7;
+    width: 43%;
+    height: 60em;
+    margin: 11em 0em 33em;
+    border-radius: 15px;
+}
+
+.img-empren-ya{
+    width: 100%;
+}
+
+.containerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.containerFormulario>div{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.input-form{
+    border: none;
+    width: 100%;
+    height: 30px !important;
+    font-size: 15px !important;
+    padding: 1.2em 0.8em;
+    color: #3c66b9 ;
+    outline: none;
+}
+
+input::placeholder {
+
+    color: #3c66b9 !important;
+    font-weight: 400 !important;
+    font-size: 1em !important;
+  }
+
+
+.boton-inicio-sesion{
+    color: white !important;
+    background-color: #3c66b9 !important;
+    border-radius: 12px !important;
+    padding: 0.6rem 3.5rem !important;
+    font-size: 1.8rem !important;
+}
+
+.boton-inicio-sesion:hover{
+    background-color: white !important;
+    color:#3c66b9 !important;
+}
+
+.remember{
+   min-width: 34px !important;  
+   margin-top: 0 !important;
+   background-color: #42b3f7 !important;
+   border: 1px solid #FFF !important;
+   font-size: 20px !important;
+   font-weight: 100 !important;
+}
+
+
+.form-label {
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.word-Recuerdame{
+        font-size: 12px;
+        margin-left: 10px;
+}
+
+.container-recuerdame{
+    color: #fff !important;
+
+}
+
+.form-check-input:checked {
+    background-color: #42b3f7 !important;
+    border: 1px solid #FFF !important;
+}
+
+
+.link-olvido-password{
+    font-size: 12px !important;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+
+@media (max-width: 425px) {
+
+.containerFormulario {
+    width: 70%;
+}
+.cajaFormulario{
+    width: 95%;
+    height: 50em;
+}
+}

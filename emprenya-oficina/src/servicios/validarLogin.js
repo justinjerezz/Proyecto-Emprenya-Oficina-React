@@ -3,7 +3,6 @@ import axios from 'axios';
 
 function validarLogin(data) {
     var email = document.getElementById("exampleEmail");
-    console.log(email)
     var clave = document.getElementById("examplePassword");
     const todosUsarios = async () => {
         const peticion = await axios.post('http://localhost/api/users/');

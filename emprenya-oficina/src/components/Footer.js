@@ -1,7 +1,7 @@
 import React from "react";
 
-import "../assets/css/normalize.css"
-import "../assets/css/style.css"
+import "../assets/css/General/normalize.css"
+import "../assets/css/General/style.css"
 
 class Footer extends React.Component
 {
@@ -25,7 +25,7 @@ class Footer extends React.Component
                                     <a href="https://emprenya.com/aprenya">
                                         <img src={require("../assets/imagenes/aprenya.png")} alt="emprenya link"></img>
                                     </a>
-                                    <a href="https://blockainya.com" target={"_blank"} className="mT-2">
+                                    <a href="https://blockainya.com"  className="mT-2">
                                         <img src={require("../assets/imagenes/blockchain.png")} alt="blockchain 1 ing"></img>
                                     </a>
                                 </li>
@@ -33,7 +33,7 @@ class Footer extends React.Component
                                 <a href="https://emprenya.com/impulsaya">
                                         <img src={require("../assets/imagenes/impulsaya.png")} alt="impulsaya link"></img>
                                     </a>
-                                    <a href="https://lanzaya.com" target={"_blank"} className="mT-2">
+                                    <a href="https://lanzaya.com"  className="mT-2">
                                         <img src={require("../assets/imagenes/lanzaya.png")} alt="lanzaya link"></img>
                                     </a>
                                 </li>
@@ -46,17 +46,17 @@ class Footer extends React.Component
                                 <h2 className="fs-3 c-white"> Aviso Legal</h2>
                                 <ul className="list-style-none mT-2">
                                     <li className="mT-1">
-                                        <a href="https://emprenya.com/terminos-legales" target={"_blank"} className="text-decoration-none c-white fs-2 fw-300 font-jost">
+                                        <a href="https://emprenya.com/terminos-legales"  className="text-decoration-none c-white fs-2 fw-300 font-jost">
                                             Terminos y Condiciones
                                         </a>
                                     </li>
                                     <li className="mT-1">
-                                    <a href="https://emprenya.com/politica-de-privacidad"  target={"_blank"} className="text-decoration-none c-white fs-2 fw-300 font-jost">
+                                    <a href="https://emprenya.com/politica-de-privacidad"   className="text-decoration-none c-white fs-2 fw-300 font-jost">
                                             Politica de privacidad
                                         </a>
                                     </li>
                                     <li className="mT-1">
-                                    <a href="https://emprenya.com/politica-de-cookies"  target={"_blank"} className="text-decoration-none c-white fs-2 fw-300 font-jost">
+                                    <a href="https://emprenya.com/politica-de-cookies"   className="text-decoration-none c-white fs-2 fw-300 font-jost">
                                             Política de cookies
                                         </a>
                                     </li>

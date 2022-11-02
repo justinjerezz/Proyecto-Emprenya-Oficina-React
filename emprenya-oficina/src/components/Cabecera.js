@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import '../assets/css/style.css'
+import '../assets/css/General/style.css'
 class Cabecera extends React.Component {
     render() {
         return (    
@@ -21,28 +21,28 @@ class Cabecera extends React.Component {
                 <div className="nav__center container d-flex justify-content-between align-items-center pX-2 mT-1 gap-2">
                         <div className="box--1">
                             <a href=  "/">
-                                <img src= {require("../assets/imagenes/emprenya.png")} className='logo--1' alt="logo"></img>
+                                <img src= {require(`../assets/imagenes/emprenya.png`)} className='logo--1' alt="logo-Emprenya"></img>
                             </a>
                         </div>
                         <div className="className=box--2 d-flex gap-2">
                         <div>
                                 <a href="/impulsaya">
-                                    <img src={require("../assets/imagenes/impulsaya.png")} alt className="logo--2"></img>
+                                    <img src={require(`../assets/imagenes/impulsaya.png`)} alt="logo" className="logo--2"></img>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://lanzaya.com" target="_blank">
-                                    <img src={require("../assets/imagenes/lanzaya.png")} alt className='logo--3'></img>
+                                <a href="https://lanzaya.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require(`../assets/imagenes/lanzaya.png`)} alt="logo" className='logo--3'></img>
                                 </a>
                             </div>
                             <div>
                                 <a href="/">
-                                    <img src={require("../assets/imagenes/aprenya.png")} alt className='logo--4'></img>
+                                    <img src={require(`../assets/imagenes/aprenya.png`)} alt="logo" className='logo--4'></img>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://blockchainya.com" target='_blank'>
-                                    <img src={require("../assets/imagenes/blockchain.png")} alt className='logo--5'></img>
+                                <a href="https://blockchainya.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={require(`../assets/imagenes/blockchain.png`)} alt="logo" className='logo--5'></img>
                                 </a>
                             </div>
                           

@@ -8,8 +8,8 @@ import Registro from './components/formResgistro';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*Importar estilos */
-import "./assets/css/style.css"
-import "./assets/css/normalize.css"
+import "./assets/css/General/style.css"
+import "./assets/css/General/normalize.css"
 import Dashboard from './components/Dashboard';
 
 
