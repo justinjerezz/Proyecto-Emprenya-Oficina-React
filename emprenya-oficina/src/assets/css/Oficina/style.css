@@ -1,0 +1,9 @@
+.iframeGeneral{
+    width: 100%;
+    height: 100em;
+    overflow-y: hidden;
+}
+.iframeGeneral::-webkit-scrollbar{
+    display: none !important;
+    overflow-x: hidden !important   ;
+}

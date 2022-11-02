@@ -1,12 +1,15 @@
 // Render Prop
 import React, { useState } from 'react';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap';
-import { validarLogin } from '../servicios/validarLogin'
+
+import { validarLogin } from '../servicios/validarLogin';
+
 
 /*Estilos de componente*/
 
 
 import "../assets/css/FormularioLogin/formularioLogin.css";
+import { Link } from 'react-router-dom';
 
 export default function Formulario() {
 
@@ -20,7 +23,7 @@ export default function Formulario() {
     }
 
     return (
-        <div className='containerGeneral'>
+        <div className='containerGeneral' id='containerGeneralForm'>
             <Form className='cajaFormulario' onSubmit={handleSubmit}>
                 <FormGroup className='containerFormulario'>
                     <div>
@@ -56,7 +59,7 @@ export default function Formulario() {
                                 </Label>
                             </div>
                             <div className="col m--align-right m-login__form-right">
-                                <a href={"/"} id="m_login_forget_password" class="m-link link-olvido-password" >Olvidó el password?</a>
+                                <Link to={"/recuperar"} id="m_login_forget_password" class="m-link link-olvido-password" >Olvidó el password?</Link>
                             </div>
                         </div>
                     </div>
