@@ -1,0 +1,63 @@
+.contenedorOpcionesOficina {
+    background-color: #145ca4;
+}
+
+.contenedorPanel2 {
+    display: flex;
+}
+
+.contenedorOpcionesOficina {
+    width: 158px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contenedorOpcionesOficina>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 99%;
+    padding-left: 0 !important;
+}
+
+
+.opcionPanel {
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+}
+
+.opcionPanel:hover {
+    background-color: #377bbe;
+    color: white;
+    cursor: hand;
+
+}
+
+.contenedorRender {
+    width: 92%;
+}
+
+
+.container-footer {
+    background-color: #145ca4;
+    width: 100%;
+    height: 60px;
+}
+
+
+/*Tamaño imagenes opciones*/
+.img-general {
+    width: 70%;
+}
+
+.img-grafico-perfil{
+    width: 25%;
+}

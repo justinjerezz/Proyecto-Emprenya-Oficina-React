@@ -4,10 +4,7 @@ import Cabecera from './components/Cabecera';
 import Idiomas from './components/Idiomas';
 import Formulario from './components/formLogin';
 import Footer from './components/Footer';
-import Registro from './components/formResgistro';
 import FormRecoverPassword from './components/FormRecoverPassword';
-import CabeceraOficina from './components/oficina/CabeceraOficina';
-import IframeLanzaya from './components/iframes/IframeLanzaya';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*Importar estilos */
@@ -23,9 +20,6 @@ function App() {
     <>
 
       <BrowserRouter>
-
-
-
         <Routes>
 
           <Route path='/'
@@ -37,13 +31,12 @@ function App() {
                 <Footer></Footer>
               </>
             }>
-
           </Route>
 
           <Route path='/recuperar'
             element={
               <>
-                      <Cabecera></Cabecera>
+                <Cabecera></Cabecera>
                 <Idiomas></Idiomas>
                 <FormRecoverPassword></FormRecoverPassword>
                 <modalValidacionlLogin></modalValidacionlLogin>
@@ -52,30 +45,9 @@ function App() {
             }>
           </Route>
 
-          <Route path='/registro' element={<Registro></Registro>}></Route>
-
-          <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
+          <Route path='/dashboard/*' element={<Dashboard></Dashboard>}></Route>
 
         </Routes>
-
-      </BrowserRouter>
-
-      <BrowserRouter>
-
-        <Routes>
-
-          <Route path='/iframelanyaya'
-            element={
-              <>
-                <CabeceraOficina></CabeceraOficina>
-                <IframeLanzaya></IframeLanzaya>
-              </>
-            }>
-
-          </Route>
-
-        </Routes>
-
       </BrowserRouter>
 
     </>

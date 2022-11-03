@@ -10,7 +10,7 @@ function validarLogin(data) {
         if (!resultado) {
         } else {
             alert("Acceso Concedido");
-            window.location.href = '/iframelanyaya';
+            window.location.href = '/dashboard';
         }
 
     }
