@@ -1,8 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../assets/css/Oficina/estilosCabeceraOficina.css"
+import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
 
-class CabeceraOficina extends React.Component {
-    render() {
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+export default function HeaderPrincipal(){
+        const [dropdown, setDropdown]=useState(false);
+        const [dropdown2, setDropdown2]=useState(false);
+
+        const abrirCerrar = () => {
+            setDropdown(!dropdown);
+        }
+
+        const abrirCerrar2 = () => {
+            setDropdown2(!dropdown2);
+        }
         return (    
             <div className="header-contenedor">
                 <div className="header-container" > 
@@ -15,14 +28,60 @@ class CabeceraOficina extends React.Component {
                         </div>
                         <div className="header-box2-2">
                             <ul>
-                                <li class="cabecera-listaImg"><img src={require(`../../assets/imagenes/es.png`)} alt="bandera_españa"/></li>
-                                <li class="cabecera-listaImg"></li>
-                            </ul>
-                        </div>
+                                <li className="cabecera-listaImg">
+                                    <Dropdown isOpen={dropdown} toggle={abrirCerrar}>
+                                        <DropdownToggle  className="drop_header">
+                                        <img src={require(`../../assets/imagenes/es.png`)} alt="bandera_españa" className="header_bandera"/>
+                                        </DropdownToggle>
+                                        <DropdownMenu className="dropMenu_header"> 
+                                            <DropdownItem className="dropItem_header">
+                                                    <img src={require(`../../assets/imagenes/es.png`)} alt="bandera_españa"/> <label>Castellano</label>
+                                            </DropdownItem>
+                                            <br/>
+                                            <DropdownItem className="dropItem_header">
+                                                <img src={require(`../../assets/imagenes/en.png`)} alt="bandera_inglesa"/> <label>English</label>
+                                            </DropdownItem>
+                                        </DropdownMenu>                                        
+                                    </Dropdown>
+                                </li>
+                                <li className="cabecera-listaImg ">  
+                                    <Dropdown isOpen={dropdown2} toggle={abrirCerrar2}>
+                                        <DropdownToggle className="drop_header">
+                                            <img src={require(`../../assets/imagenes/oficina/user-emprenya.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
+                                        </DropdownToggle>
+                                        <DropdownMenu className="container-menu">
+                                            <DropdownItem className="container-card">
+                                                <div className="card">
+                                                    <div className="card-body">
+                                                        <div className="card-datos">
+                                                            <div className="card-imagen">
+                                                                <img src={require(`../../assets/imagenes/oficina/user-blanco.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
+                                                            </div>
+                                                            <div className="card-texto">
+                                                                <span>Nombre  apellidos</span><br></br>
+                                                                <a href="/">sagfyaguig@widitek.com</a>
+                                                            </div>
+                                                        </div>
+                                                    <div className="card-acciones">
+                                                    <br/>
+                                                        <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/icone-utilisateur-gris.png`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>Mis datos</span></a></div><br/>
+                                                        <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/formulario.webp`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>subscripciones activas</span></a></div><br/>
+                                                        <br/>
+                                                        <a href='/' class="header-button">Salir</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </DropdownItem>
+                                    </DropdownMenu>                                        
+                                </Dropdown>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        )
-    }
+
+        </div>
+
+        
+    )
 }
-export default CabeceraOficina;
