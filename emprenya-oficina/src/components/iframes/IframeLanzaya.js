@@ -1,6 +1,6 @@
 import React from "react";
 import Iframe from "react-iframe";
-import "../../assets/css/Oficina/style.css"
+import "../../assets/css/Oficina/estilosIframes.css"
 
 class IframeLanzaya extends React.Component {
     render() {

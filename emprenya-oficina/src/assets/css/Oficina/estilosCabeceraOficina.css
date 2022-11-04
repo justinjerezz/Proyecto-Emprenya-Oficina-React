@@ -51,7 +51,7 @@
 
 .header-box2-2 ul{
   list-style-type: none;
-  display: flex;
+  display: flex !important;
   
 }
 
@@ -64,7 +64,6 @@
 .header_bandera{ 
     height: 30px;
     width: 30px;
-    margin-top:8px;
 }
 
 .header_user{ 

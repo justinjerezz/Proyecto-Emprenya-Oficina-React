@@ -2,13 +2,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 /*Importamos componentes*/
 import CabeceraOficina from "./oficina/CabeceraOficina";
-import IframeLanzaYa from "./iframes/IframeLanzaYa";
+import IframeLanzaYa from "./iframes/IframeLanzaya";
 import IframeBlockChainYa from "./iframes/IframeBlockChainYa";
 import FooterOficina from "./oficina/FooterOficina";
 import MenuOficina from "./oficina/MenuOficina";
+import Estadisticas from "./oficina/Estadisticas";
 /*Importamos CSS */
 import "../assets/css/Oficina/dashboard.css";
-import "../assets/css/Oficina/style.css";
 
 class Dashboard extends React.Component {
     render() {
@@ -24,6 +24,7 @@ class Dashboard extends React.Component {
                         </div>
                         <div className="contenedorRender">
                             <Routes>
+                                <Route path="estadisticas" element={<Estadisticas></Estadisticas>}></Route>
                                 <Route path="lanzaya" element={<IframeLanzaYa></IframeLanzaYa>}></Route>
                                 <Route path="blockchainya" element={<IframeBlockChainYa></IframeBlockChainYa>}></Route>
                             </Routes>

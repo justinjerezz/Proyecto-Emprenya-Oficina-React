@@ -1,23 +1,20 @@
-.contenedorOpcionesOficina {
-    background-color: #145ca4;
-}
-
 .contenedorPanel2 {
     display: flex;
 }
 
 .contenedorOpcionesOficina {
+    background-color: #145ca4;
     width: 158px;
     color: white;
-    font-size: 2em;
+    font-size: 15px;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
-.contenedorOpcionesOficina>ul {
+.listaOpcionesOficina {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -31,7 +28,7 @@
 .opcionPanel {
     text-decoration: none;
     color: white;
-    padding: 10%;
+    padding: 7%;
 }
 
 .opcionPanel:hover {
@@ -53,11 +50,58 @@
 }
 
 
+
 /*Tamaño imagenes opciones*/
 .img-general {
     width: 70%;
 }
 
-.img-grafico-perfil{
-    width: 25%;
+.img-grafico-perfil {
+    width: 23%;
+}
+.img-impulsaya{
+    width: 65%;
+}
+
+.img-aprenya {
+    width: 60%;
+}
+
+.img-blockchainya {
+    width: 70%;
+}
+
+.img-lanzaya{
+    width: 50%;
+}
+
+.img-promociones-especiales {
+
+    width: 21%;
+
+}
+.img-estructura{
+    width: 29%;
+}
+.img-cuentas{
+    width: 29%;
+}
+.img-compras{
+    width: 29%;
+}
+
+.img-comisiones{
+    width: 29%;
+}
+
+.img-herramientas{
+    width: 29%;
+}
+
+.img-ninja-ventas{
+    width: 29%;
+}
+
+.img-crece-crypto{
+    width: 29%;
 }
