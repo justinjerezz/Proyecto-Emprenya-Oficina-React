@@ -59,7 +59,8 @@
 .img-grafico-perfil {
     width: 23%;
 }
-.img-impulsaya{
+
+.img-impulsaya {
     width: 65%;
 }
 
@@ -71,7 +72,7 @@
     width: 70%;
 }
 
-.img-lanzaya{
+.img-lanzaya {
     width: 50%;
 }
 
@@ -80,28 +81,31 @@
     width: 21%;
 
 }
-.img-estructura{
-    width: 29%;
-}
-.img-cuentas{
-    width: 29%;
-}
-.img-compras{
+
+.img-estructura {
     width: 29%;
 }
 
-.img-comisiones{
+.img-cuentas {
     width: 29%;
 }
 
-.img-herramientas{
+.img-compras {
     width: 29%;
 }
 
-.img-ninja-ventas{
+.img-comisiones {
     width: 29%;
 }
 
-.img-crece-crypto{
+.img-herramientas {
+    width: 29%;
+}
+
+.img-ninja-ventas {
+    width: 29%;
+}
+
+.img-crece-crypto {
     width: 29%;
 }

@@ -10,8 +10,10 @@ class MenuOficina extends React.Component {
                         <li><img src={require(`../../assets/imagenes/oficina/line-graph.png`)} alt="line-graph" className="img-general img-grafico-perfil" /></li>
                     </Link>
 
-                    <Link className="opcionPanel">
-                        <li><img src={require(`../../assets/imagenes/oficina/impulsaya_blanco.png`)} alt="ImpulsaYA" className="img-general img-impulsaya" /></li>
+                    <Link className="opcionPanel opcionImpulsaYa" to="ifanel/mensual">
+                        <li><img src={require(`../../assets/imagenes/oficina/impulsaya_blanco.png`)} alt="ImpulsaYA" className="img-general img-impulsaya" />
+                        </li>
+
                     </Link>
 
                     <Link className="opcionPanel">
@@ -29,51 +31,51 @@ class MenuOficina extends React.Component {
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/promociones-especiales.png`)} alt="Promociones Especiales" className="img-general img-promociones-especiales" />
-                            <p>Promociones<br/>Especiales</p>
-                            </li>
+                            <p>Promociones<br />Especiales</p>
+                        </li>
                     </Link>
 
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/estructura.png`)} alt="Estructura" className="img-general img-estructura" />
                             <p>Estructura</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/cuentas.png`)} alt="Cuentas" className="img-general img-cuentas" />
                             <p>Cuentas</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/compras.png`)} alt="Compras" className="img-general img-compras" />
                             <p>Compras</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/comisiones.png`)} alt="Comisiones" className="img-general img-comisiones" />
                             <p>Comisiones</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/herramientas.png`)} alt="Herramientas" className="img-general img-herramientas" />
                             <p>Herramientas</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/iso_blanco_ninjadeventas.png`)} alt="Ninja Ventas" className="img-general img-ninja-ventas" />
                             <p>Ninja De Ventas</p>
-                            </li>
+                        </li>
                     </Link>
                     <Link className="opcionPanel">
                         <li>
                             <img src={require(`../../assets/imagenes/oficina/iso_bn_crececrypto.png`)} alt="Crece Crypto" className="img-general img-crece-crypto" />
                             <p>CreceCrypto</p>
-                            </li>
+                        </li>
                     </Link>
                 </ul>
             </>

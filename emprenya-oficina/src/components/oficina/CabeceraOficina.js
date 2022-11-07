@@ -33,7 +33,7 @@ export default function HeaderPrincipal(){
                                         <DropdownToggle  className="drop_header">
                                         <img src={require(`../../assets/imagenes/es.png`)} alt="bandera_españa" className="header_bandera"/>
                                         </DropdownToggle>
-                                        <DropdownMenu className="dropMenu_header"> 
+                                        <DropdownMenu className="dropMenu_header idiomas"> 
                                             <DropdownItem className="dropItem_header">
                                                     <img src={require(`../../assets/imagenes/es.png`)} alt="bandera_españa"/> <label>Castellano</label>
                                             </DropdownItem>

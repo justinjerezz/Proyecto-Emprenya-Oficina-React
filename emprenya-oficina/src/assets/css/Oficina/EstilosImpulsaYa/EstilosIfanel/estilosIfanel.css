@@ -1,0 +1,60 @@
+.containerIfanel{
+    background-color: #f1f7fc ;
+    padding: 5%;
+}
+.contenedorImagenIfanel{
+    display: flex;
+    justify-content: center;
+}
+.contenedorImagenIfanel> img{
+    width: 15%;
+}
+.contenedorOpciones{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 25px;
+}
+
+.contenedorOpciones > button{
+    font-size: 2.5em;
+    border: none;
+}
+
+.botonMensual{
+    border-radius: 5px 0px 0px 5px;
+    background-color: #0068de !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.botonMensual:hover{
+    background-color: #0068de !important;
+}
+
+.botonMensual>a{
+    border-radius: 5px 0px 0px 5px;
+    background-color: #0068de !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+}
+
+.botonAnual{
+    border-radius: 0px 5px 5px 0px;
+    background-color: #5db8ff;
+    color: white;
+    font-weight: 700;
+}
+
+.botonAnual:hover{
+    background-color: #5db8ff !important;
+}
+
+.botonAnual>a{
+    border-radius: 0px 5px 5px 0px;
+    background-color: #5db8ff !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+}
