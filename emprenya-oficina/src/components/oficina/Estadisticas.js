@@ -163,8 +163,13 @@ class Estadisticas extends React.Component{
                             </div>
                         </div>
                         <div className="row stats-datos">
-                            <div className="col-6 mr-20">
+                            <div className="col-6 mr-20 datos-container">
+                                <div className="datos-head w-100">
+                                    <h3>Registros</h3>
+                                </div>
+                                <div className="datos-body w-100">
 
+                                </div>
                             </div>
                             <div className="col-6">
 
