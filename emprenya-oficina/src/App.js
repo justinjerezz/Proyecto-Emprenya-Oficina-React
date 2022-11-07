@@ -4,7 +4,7 @@ import Cabecera from './components/Cabecera';
 import Idiomas from './components/Idiomas';
 import Formulario from './components/formLogin';
 import Footer from './components/Footer';
-import FormRecoverPassword from './components/FormRecoverPassword';
+import FormRecoverPassword from './components/formRecoverPassword';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*Importar estilos */
