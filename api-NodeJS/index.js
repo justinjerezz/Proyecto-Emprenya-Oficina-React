@@ -15,7 +15,8 @@ app.use(express.json());
 const users=[
     {id:1, email:'abcd111@abcd.es',age:20, clave:'Prueba2022*', enroll:true},
     {id:2, email:'abcd222@abcd.es',age:20, clave:'Prueba2022*', enroll:true},
-    {id:3, email:'abcd333@abcd.es',age:20, clave:'Prueba2022*', enroll:false}
+    {id:3, email:'abcd333@abcd.es',age:20, clave:'Prueba2022*', enroll:false},
+    {id:4, email:'123@123.es',age:20, clave:'123', enroll:false}
 ];
 
 
