@@ -1,10 +1,13 @@
 import React from "react";
 import "../../assets/css/Oficina/estilosEstadisticas.css";
-
-
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { CgProfile } from "react-icons/cg";
+import { GrUserManager } from "react-icons/gr";
+
+
 class Estadisticas extends React.Component{
     render(){
+       
         return(
             <>
                 <div className="m-grid__item--fluid main-stats">
@@ -115,7 +118,7 @@ class Estadisticas extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-md-4 contrata-divs">
-                                    <div className="card-contrata row mr-20">
+                                    <div className="card-contrata row">
                                         <div className="col-3 gris-claro-contrata">
                                             <div className="panel-izq-contrata">
 
@@ -162,17 +165,118 @@ class Estadisticas extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        
+                        {/*Compras/datos */}
                         <div className="row stats-datos">
-                            <div className="col-6 mr-20 datos-container">
-                                <div className="datos-head w-100">
-                                    <h3>Registros</h3>
-                                </div>
-                                <div className="datos-body w-100">
-
+                            <div className="col-6 datos-container">
+                                <div className="datos-portlet mr-20">
+                                    <div className="datos-head w-100">
+                                        <h3>Registros</h3>
+                                    </div>
+                                    <div className="datos-body w-100">
+                                        <div className="row datos-widget widget-1">
+                                            <div className="col-1 text-center">
+                                                <CgProfile color="red" className="icono-datos"/>
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="datos-body-titulo">Registros Clientes</span>
+                                                <br/>
+                                                <span className="datos-body-subtitulo">Total de clientes que no son distribuidores</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="datos-body-num">0</span>
+                                            </div>
+                                        </div>
+                                        <div className="row datos-widget widget-2">
+                                            <div className="col-1">
+                                                <GrUserManager color="cian" className="icono-datos"/>
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="datos-body-titulo">Registros Distribuidores</span>
+                                                <br/>
+                                                <span className="datos-body-subtitulo">Total de clientes que son distribuidores</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="datos-body-num">0</span>
+                                            </div>
+                                        </div>
+                                        <div className="row datos-widget">
+                                            <div className="col-1">
+                                                <img src="" alt="logo" />
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="datos-body-titulo">Registros Totales</span>
+                                                <br/>
+                                                <span className="datos-body-subtitulo">Total de clientes</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="datos-body-num">0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="datos-canvas">
+                                        a
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-6">
 
+
+                            <div className="col-6 compras-container">
+                                <div className="compras-portlet">
+                                    <div className="compras-head w-100 mr-20">
+                                        <h3>Compras</h3>
+                                    </div>
+                                    <div className="compras-body w-100">
+                                        <div className="row compras-widget widget-1">
+                                            <div className="col-1">
+                                                
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="compras-body-titulo">ImpulsaYa</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="compras-body-num">€ 147.00</span>
+                                            </div>
+                                        </div>
+                                        <div className="row compras-widget widget-1">
+                                            <div className="col-1">
+                                                <img src="" alt="logo" />
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="compras-body-titulo">AprenYa</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="compras-body-num">€ 0.00</span>
+                                            </div>
+                                        </div>
+                                        <div className="row compras-widget widget-3">
+                                            <div className="col-1">
+                                                <img src="" alt="logo" />
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="compras-body-titulo">LanzaYa</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="compras-body-num">€ 0.00</span>
+                                            </div>
+                                        </div>
+                                        <h4>Comisión</h4>
+                                        <div className="row compras-widget">
+                                            <div className="col-1">
+                                                <img src="" alt="logo" />
+                                            </div>
+                                            <div className="col-9">
+                                                <span className="compras-body-titulo">Comisiones</span>
+                                            </div>
+                                            <div className="col-2">
+                                                <span className="compras-body-num">€ 147.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="datos-canvas">
+                                        a
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

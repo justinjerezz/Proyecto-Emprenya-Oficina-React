@@ -225,7 +225,7 @@
     margin-right: 20px;
 }
 
-.datos-container{
+.datos-portlet{
     box-shadow: 1px 1px 200px gray ;
     margin-bottom: 50px;
 }
@@ -240,4 +240,129 @@
     vertical-align: middle;
     font-size: 16px;
     font-weight: 500;
+}
+
+.datos-widget{
+    padding: 25px;
+    width: 95% !important;
+    margin:auto;
+}
+
+.datos-body{
+    min-height: 450px;
+}
+
+.datos-body-titulo{
+    color: #575962;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.datos-body-subtitulo{
+    color: #7b7e8a;
+    font-size: 13px;
+}
+
+.datos-body-num{
+    margin:auto;
+    display:block;
+    font-weight: 600;
+    font-size: 19px;
+    color: #716aca;
+    width:100%;
+    text-align: right !important;
+}
+
+.widget-1{
+    border-bottom:1px dashed #dcdcdf;
+}
+
+.widget-2{
+    border-bottom:1px dashed #575962;
+}
+
+.datos-canvas{
+    height:150px;
+    display:block;
+}
+
+.compras-portlet{
+    box-shadow: 1px 1px 200px gray ;
+    margin-bottom: 50px;
+}
+
+.compras-head{
+    padding:30px;
+}
+
+.compras-head h3{
+    color: #575962;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.compras-widget{
+    padding: 15px;
+    width: 95% !important;
+    margin:auto;
+}
+
+.compras-body{
+    min-height: 430px;
+}
+
+.compras-body-titulo{
+    color: #575962;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.compras-body-subtitulo{
+    color: #7b7e8a;
+    font-size: 13px;
+}
+
+.compras-body-num{
+    margin:auto;
+    display:block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #716aca;
+    width:100%;
+    text-align: right !important;
+}
+
+.widget-1{
+    border-bottom:1px dashed #dcdcdf;
+}
+
+.widget-2{
+    border-bottom:1px dashed #575962;
+}
+
+.widget-3{
+    border-bottom:1px solid #d1d0d0;
+}
+
+.compras-canvas{
+    height:150px;
+    display:block;
+}
+
+.compras-body h4{
+    padding:15px;
+    padding-left:30px;
+    font-size: 16px;
+    color: #575962;
+}
+
+.prueba1{
+    background-color:black;
+}
+
+.icono-datos{
+    height:25px;
+    width:25px;
+    
 }
