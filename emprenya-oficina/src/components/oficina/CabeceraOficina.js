@@ -49,25 +49,25 @@ export default function HeaderPrincipal(){
                                         <DropdownToggle className="drop_header">
                                             <img src={require(`../../assets/imagenes/oficina/user-emprenya.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
                                         </DropdownToggle>
-                                        <DropdownMenu className="container-menu">
-                                            <DropdownItem className="container-card">
-                                                <div className="card">
-                                                    <div className="card-body">
-                                                        <div className="card-datos">
-                                                            <div className="card-imagen">
+                                    <DropdownMenu className="container-menu">
+                                        <DropdownItem className="container-card">
+                                            <div className="card-cabecera">
+                                                <div className="card-body-cabecera">
+                                                        <div className="card-datos-cabecera">
+                                                            <div className="card-imagen-cabecera">
                                                                 <img src={require(`../../assets/imagenes/oficina/user-blanco.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
                                                             </div>
-                                                            <div className="card-texto">
+                                                            <div className="card-texto-cabecera">
                                                                 <span>Nombre  apellidos</span><br></br>
                                                                 <a href="/">sagfyaguig@widitek.com</a>
                                                             </div>
                                                         </div>
-                                                    <div className="card-acciones">
+                                                    <div className="card-acciones-cabecera">
                                                     <br/>
-                                                        <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/icone-utilisateur-gris.png`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>Mis datos</span></a></div><br/>
-                                                        <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/formulario.webp`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>subscripciones activas</span></a></div><br/>
+                                                        <div><a href='/' className="header-enlaces"><img src={require(`../../assets/imagenes/oficina/icone-utilisateur-gris.png`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>Mis datos</span></a></div><br/>
+                                                        <div><a href='/' className="header-enlaces"><img src={require(`../../assets/imagenes/oficina/formulario.webp`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>subscripciones activas</span></a></div><br/>
                                                         <br/>
-                                                        <a href='/' class="header-button">Salir</a>
+                                                        <a href='/' className="header-button">Salir</a>
                                                     </div>
                                                 </div>
                                             </div>

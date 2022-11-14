@@ -1,18 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../assets/css/Oficina/estilosEstadisticas.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { FiUsers } from "react-icons/fi";
-import { SlDrawer } from "react-icons/sl";
-import { SlHandbag } from "react-icons/sl";
+import { SlDrawer, SlHandbag } from "react-icons/sl";
 import { BiCoinStack } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
 
+export default function Estadisticas(){
+        const [dropdown3, setDropdown3]=useState(false);
 
-class Estadisticas extends React.Component{
-    render(){
-       
+        const abrirCerrar3 = () => {
+            setDropdown3(!dropdown3);
+        }
+
+     
         return(
             <>
                 <div className="m-grid__item--fluid main-stats">
@@ -31,7 +35,30 @@ class Estadisticas extends React.Component{
                                         <span className="subheader-stats-titulo">Este mes:</span>
                                         <span className="subheader-stats-mes">01-11-22 | 30-11-22</span>
                                     </span>
-                                    <span className="enlace-div" href='/'><MdKeyboardArrowDown className="icono-enlace" color="white" /></span>
+                                    <Dropdown isOpen={dropdown3} toggle={abrirCerrar3}>
+                                        <DropdownToggle className="drop_header">
+                                            <span className="enlace-div" href='/'><MdKeyboardArrowDown className="icono-enlace" color="white" /></span>
+                                        </DropdownToggle>
+                                        <DropdownMenu >
+                                            <DropdownItem className="dropdown-dias container-card">
+                                                <ul className="dropdown-lista">
+                                                    <li><a href='/'>Hoy</a></li>
+                                                    <li><a href='/'>Ayer</a></li>
+                                                    <li><a href='/'>Últimos 7 días</a></li>
+                                                    <li><a href='/'>Últimos 30 dias</a></li>
+                                                    <li><a href='/'>Este mes</a></li>
+                                                    <li><a href='/'>El mes pasado</a></li>
+                                                    <li><a href='/'>Rango personalizado</a></li>
+                                                </ul>
+                                                <br />
+                                                <div className="dropdown-button">
+                                                    <button className="dropdown-aplicar">Aplicar</button>
+                                                    <button className="dropdown-cancelar">Cancelar</button>
+                                                </div>
+                                            </DropdownItem>
+                                        </DropdownMenu>
+                                    </Dropdown>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -219,7 +246,7 @@ class Estadisticas extends React.Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="datos-canvas">
+                                    <div className="datos-canvas">
                                         a
                                     </div>
                                 </div>
@@ -278,7 +305,7 @@ class Estadisticas extends React.Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="datos-canvas">
+                                    <div className="datos-canvas">
                                         a
                                     </div>
                                 </div>
@@ -288,7 +315,5 @@ class Estadisticas extends React.Component{
                 </div>
             </>
         );
-    }
+    
 }
-
-export default Estadisticas;

@@ -84,7 +84,7 @@
   border: none !important;
   float:left;
 }
-
+ 
 .dropMenu_header{
   padding: 20px 15px 20px 15px !important;
   border: none !important;
@@ -115,7 +115,7 @@
   background-color: transparent !important;
 }
 
-.card{
+.card-cabecera{
   border:none !important;
   width: 325px;
   height: 250px;
@@ -123,11 +123,15 @@
   box-shadow: 7px 7px 10px rgba(27, 25, 34, 0.03);
 }
 
-.card:hover{
+.card-body-cabecera{
+  display:block !important;
+}
+
+.card-cabecera:hover{
   background-color: transparent !important;
 }
 
-.card-datos{
+.card-datos-cabecera{
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -135,27 +139,28 @@
   padding: 10px 10px 10px 10px;
   background-color: #145ca4;
   border-radius: 4px;
+  width: 100% !important;
 }
 
-.card-imagen{
+.card-imagen-cabecera{
   display:inline;
   width:50px;
   margin-right: 15px;
 }
 
-.card-texto{
+.card-texto-cabecera{
   display:inline;
   width: 100%;
   color:rgb(214, 214, 214);
   font-size: 16px;
 }
 
-.card-texto a{
+.card-texto-cabecera a{
   color:rgb(168, 168, 168);
   font-size: 16px;
 }
 
-.card-acciones{
+.card-acciones-cabecera{
   height: 167px;
   padding: 20px 40px 40px 20px;
 }
