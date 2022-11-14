@@ -2,7 +2,12 @@ import React from "react";
 import "../../assets/css/Oficina/estilosEstadisticas.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { CgProfile } from "react-icons/cg";
-import { GrUserManager } from "react-icons/gr";
+import { HiOutlineUserCircle } from "react-icons/hi";
+import { FiUsers } from "react-icons/fi";
+import { SlDrawer } from "react-icons/sl";
+import { SlHandbag } from "react-icons/sl";
+import { BiCoinStack } from "react-icons/bi";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 
 class Estadisticas extends React.Component{
@@ -14,7 +19,7 @@ class Estadisticas extends React.Component{
                     <div className="alerta-stats">
                         <div className="row">
                             <div className="col-xl-12">
-                                
+                                 
                             </div>
                         </div>
                     </div>
@@ -26,11 +31,11 @@ class Estadisticas extends React.Component{
                                         <span className="subheader-stats-titulo">Este mes:</span>
                                         <span className="subheader-stats-mes">01-11-22 | 30-11-22</span>
                                     </span>
-                                    <a href='/'>Icono</a>
+                                    <span className="enlace-div" href='/'><MdKeyboardArrowDown className="icono-enlace" color="white" /></span>
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row"> 
                             <div className="col-12  col-md-6">
                                 <div className="card row">
                                     <div className="col-12 card-header">
@@ -175,8 +180,8 @@ class Estadisticas extends React.Component{
                                     </div>
                                     <div className="datos-body w-100">
                                         <div className="row datos-widget widget-1">
-                                            <div className="col-1 text-center">
-                                                <CgProfile color="red" className="icono-datos"/>
+                                            <div className="col-1 icono-div">
+                                                <HiOutlineUserCircle color="red" className="icono-datos"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="datos-body-titulo">Registros Clientes</span>
@@ -188,8 +193,8 @@ class Estadisticas extends React.Component{
                                             </div>
                                         </div>
                                         <div className="row datos-widget widget-2">
-                                            <div className="col-1">
-                                                <GrUserManager color="cian" className="icono-datos"/>
+                                            <div className="col-1 icono-div">
+                                                <CgProfile color="blue" className="icono-datos"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="datos-body-titulo">Registros Distribuidores</span>
@@ -202,7 +207,7 @@ class Estadisticas extends React.Component{
                                         </div>
                                         <div className="row datos-widget">
                                             <div className="col-1">
-                                                <img src="" alt="logo" />
+                                                <FiUsers className="icono-datos" />
                                             </div>
                                             <div className="col-9">
                                                 <span className="datos-body-titulo">Registros Totales</span>
@@ -229,7 +234,7 @@ class Estadisticas extends React.Component{
                                     <div className="compras-body w-100">
                                         <div className="row compras-widget widget-1">
                                             <div className="col-1">
-                                                
+                                                <SlDrawer color="red" className="icono-compras"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="compras-body-titulo">ImpulsaYa</span>
@@ -240,7 +245,7 @@ class Estadisticas extends React.Component{
                                         </div>
                                         <div className="row compras-widget widget-1">
                                             <div className="col-1">
-                                                <img src="" alt="logo" />
+                                                <SlHandbag color="red" className="icono-compras"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="compras-body-titulo">AprenYa</span>
@@ -251,7 +256,7 @@ class Estadisticas extends React.Component{
                                         </div>
                                         <div className="row compras-widget widget-3">
                                             <div className="col-1">
-                                                <img src="" alt="logo" />
+                                                <BiCoinStack color="red" className="icono-compras"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="compras-body-titulo">LanzaYa</span>
@@ -263,7 +268,7 @@ class Estadisticas extends React.Component{
                                         <h4>Comisión</h4>
                                         <div className="row compras-widget">
                                             <div className="col-1">
-                                                <img src="" alt="logo" />
+                                                <BiCoinStack color="blue" className="icono-compras"/>
                                             </div>
                                             <div className="col-9">
                                                 <span className="compras-body-titulo">Comisiones</span>
