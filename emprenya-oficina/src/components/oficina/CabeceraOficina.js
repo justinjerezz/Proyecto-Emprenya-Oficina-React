@@ -45,7 +45,7 @@ export default function HeaderPrincipal(){
                                     </Dropdown>
                                 </li>
                                 <li className="cabecera-listaImg ">  
-                                    <Dropdown isOpen={dropdown2} toggle={abrirCerrar2}>
+                                    <Dropdown isOpen={dropdown2} toggle={abrirCerrar2} className="drop">
                                         <DropdownToggle className="drop_header">
                                             <img src={require(`../../assets/imagenes/oficina/user-emprenya.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
                                         </DropdownToggle>

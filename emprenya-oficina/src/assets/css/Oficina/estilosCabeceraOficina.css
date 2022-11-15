@@ -80,7 +80,7 @@
 
 
 .drop_header{
-  background-color: transparent !important;
+  background: none !important;
   border: none !important;
   float:left;
 }
@@ -88,7 +88,7 @@
 .dropMenu_header{
   padding: 20px 15px 20px 15px !important;
   border: none !important;
-  box-shadow: 8px 8px 10px rgba(27, 25, 34, 0.03);
+  background-color: white !important;
 }
 
 .dropItem_header label{
@@ -101,18 +101,14 @@
   width: 25px;
 }
 
-.dropItem_header:hover{
-  background-color: transparent !important;
-}
-
 .container-menu{
   border:none !important;
-  
+  background: none !important;
 }
 
-
-.container-card:hover{
-  background-color: transparent !important;
+.container-card{
+  background: none !important;
+  box-shadow: 1px 1px 10px rgba(27, 25, 34, 0.03);
 }
 
 .card-cabecera{
@@ -121,15 +117,13 @@
   height: 250px;
   float:left;
   box-shadow: 7px 7px 10px rgba(27, 25, 34, 0.03);
+  background-color: white !important;
 }
 
 .card-body-cabecera{
   display:block !important;
 }
 
-.card-cabecera:hover{
-  background-color: transparent !important;
-}
 
 .card-datos-cabecera{
   display: flex;

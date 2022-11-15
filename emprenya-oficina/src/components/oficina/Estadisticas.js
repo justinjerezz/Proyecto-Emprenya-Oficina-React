@@ -8,6 +8,8 @@ import { SlDrawer, SlHandbag } from "react-icons/sl";
 import { BiCoinStack } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
+import Grafica1 from "./grafica1";
+import Grafica2 from "./grafica2";
 
 export default function Estadisticas(){
         const [dropdown3, setDropdown3]=useState(false);
@@ -16,7 +18,6 @@ export default function Estadisticas(){
             setDropdown3(!dropdown3);
         }
 
-     
         return(
             <>
                 <div className="m-grid__item--fluid main-stats">
@@ -35,25 +36,27 @@ export default function Estadisticas(){
                                         <span className="subheader-stats-titulo">Este mes:</span>
                                         <span className="subheader-stats-mes">01-11-22 | 30-11-22</span>
                                     </span>
-                                    <Dropdown isOpen={dropdown3} toggle={abrirCerrar3}>
+                                    <Dropdown isOpen={dropdown3} toggle={abrirCerrar3} >
                                         <DropdownToggle className="drop_header">
                                             <span className="enlace-div" href='/'><MdKeyboardArrowDown className="icono-enlace" color="white" /></span>
                                         </DropdownToggle>
-                                        <DropdownMenu >
+                                        <DropdownMenu className="dropdown-menu">
                                             <DropdownItem className="dropdown-dias container-card">
-                                                <ul className="dropdown-lista">
-                                                    <li><a href='/'>Hoy</a></li>
-                                                    <li><a href='/'>Ayer</a></li>
-                                                    <li><a href='/'>Últimos 7 días</a></li>
-                                                    <li><a href='/'>Últimos 30 dias</a></li>
-                                                    <li><a href='/'>Este mes</a></li>
-                                                    <li><a href='/'>El mes pasado</a></li>
-                                                    <li><a href='/'>Rango personalizado</a></li>
-                                                </ul>
-                                                <br />
-                                                <div className="dropdown-button">
-                                                    <button className="dropdown-aplicar">Aplicar</button>
-                                                    <button className="dropdown-cancelar">Cancelar</button>
+                                                <div className="dropdown-menuLista">
+                                                    <ul className="dropdown-lista">
+                                                        <li><a href='/'>Hoy</a></li>
+                                                        <li><a href='/'>Ayer</a></li>
+                                                        <li><a href='/'>Últimos 7 días</a></li>
+                                                        <li><a href='/'>Últimos 30 dias</a></li>
+                                                        <li><a href='/'>Este mes</a></li>
+                                                        <li><a href='/'>El mes pasado</a></li>
+                                                        <li><a href='/'>Rango personalizado</a></li>
+                                                    </ul>
+                                                    <br />
+                                                    <div className="dropdown-button">
+                                                        <button className="dropdown-aplicar">Aplicar</button>
+                                                        <button className="dropdown-cancelar">Cancelar</button>
+                                                    </div>
                                                 </div>
                                             </DropdownItem>
                                         </DropdownMenu>
@@ -87,7 +90,7 @@ export default function Estadisticas(){
                                             </div>
                                     </div>
                                     <div className="col-12 card-footer">
-                                        <p>Link Referido: https://emprenya.com/luisusuario19/unete</p>
+                                        Link Referido: <a href="/" className="card-linkRef">https://emprenya.com/luisusuario19/unete</a>
                                     </div>
 
                                 </div>
@@ -150,7 +153,7 @@ export default function Estadisticas(){
                                     </div>
                                 </div>
                                 <div className="col-md-4 contrata-divs">
-                                    <div className="card-contrata row">
+                                    <div className="card-contrata row mr-20">
                                         <div className="col-3 gris-claro-contrata">
                                             <div className="panel-izq-contrata">
 
@@ -246,8 +249,8 @@ export default function Estadisticas(){
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="datos-canvas">
-                                        a
+                                    <div className="datos-canvas" >
+                                        <Grafica1  />
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +309,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas">
-                                        a
+                                    <Grafica2  />
                                     </div>
                                 </div>
                             </div>
