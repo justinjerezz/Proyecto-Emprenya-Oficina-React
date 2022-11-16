@@ -36,8 +36,11 @@ const options = {
             display: false
         },
         x:{
-            title:{
-                display: false
+            ticks: {
+                color: 'white'
+            },
+            grid: {
+                color: 'white'
             }
         }
     },
@@ -56,8 +59,10 @@ export default function Grafica1(){
                 {
                 label: 'Mis datos',
                 data: scores,
-                backgroundColor: "red",
-                borderColor:"red"
+                backgroundColor: "#d9d9d9",
+                borderColor:"red",
+                tension: .4,
+                fill:true
             }
         ],
         labels

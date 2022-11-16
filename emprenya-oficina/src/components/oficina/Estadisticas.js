@@ -250,7 +250,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas" >
-                                        <Grafica1  />
+                                        <Grafica1 height="150" width="770"/>
                                     </div>
                                 </div>
                             </div>
