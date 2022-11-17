@@ -8,8 +8,6 @@ import { SlDrawer, SlHandbag } from "react-icons/sl";
 import { BiCoinStack } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
-import Grafica1 from "./grafica1";
-import Grafica2 from "./grafica2";
 
 export default function Estadisticas(){
         const [dropdown3, setDropdown3]=useState(false);
@@ -72,10 +70,10 @@ export default function Estadisticas(){
                                         <h4>LUISUSUARIO19</h4>
                                     </div>
                                     <div className="col-12 row card-body">
-                                            <div className="col-6 card-body-imagen">
+                                            <div className="col-md-6 card-body-imagen">
                                                 <img src={require("../../assets/imagenes/oficina/user-gris.png")} alt="user"/>
                                             </div>
-                                            <div className="col-6 card-body-texto">
+                                            <div className="col-md-6 card-body-texto">
                                                 <p><b>Nombre:</b> nombre</p>
 
                                                 <p><b>Apellido:</b> r b</p>
@@ -176,7 +174,7 @@ export default function Estadisticas(){
                                     </div>
                                 </div>
                                 <div className="col-md-4 contrata-divs">
-                                    <div className="card-contrata row">
+                                    <div className="card-contrata row  mr-20">
                                         <div className="col-3 gris-claro-contrata">
                                             <div className="panel-izq-contrata">
 
@@ -249,8 +247,8 @@ export default function Estadisticas(){
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="datos-canvas" >
-                                        <Grafica1 height="150" width="770"/>
+                                    <div className="datos-canvas" >a
+
                                     </div>
                                 </div>
                             </div>
@@ -309,7 +307,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas">
-                                    <Grafica2  />
+                                        a
                                     </div>
                                 </div>
                             </div>
