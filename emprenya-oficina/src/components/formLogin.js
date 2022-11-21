@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap';
 
-import { validarLogin } from '../servicios/validarLogin';
+import { validarLogin } from '../servicios/validarLogin'
 
 
 /*Estilos de componente*/

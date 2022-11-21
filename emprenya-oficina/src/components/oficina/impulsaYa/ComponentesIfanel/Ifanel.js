@@ -19,7 +19,7 @@ class Ifanel extends React.Component {
                         <Button className="botonMensual"><Link to="mensual">Mensual</Link></Button>
                         <Button className="botonAnual"><Link to="anual">Anual</Link></Button>
                     </div>
-                    <div>
+                    <div className="contenedorOpcionesIfanel">
                         <Routes>
                             <Route path="mensual" element={<IfanelMensual></IfanelMensual>}></Route>
                             <Route path="anual" element={<IfanelAnual></IfanelAnual>}></Route>

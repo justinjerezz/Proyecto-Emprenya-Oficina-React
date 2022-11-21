@@ -5,136 +5,23 @@ class IfanelMensual extends React.Component {
     render() {
         return (
             <>
-                <div className="container-promocion-mensual">
-                    <div className="container-promocion-individual">
-                        <div className="precio-mensual">
-                            <div className="circulo-principal">
-                                <div className="circulo-secundario">
-                                    <div>€</div>
-                                    <div>35</div>
-                                    <div>MES</div>
-                                </div>
-                            </div>
+                <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Plan Mensual Started</h5>
                         </div>
-
-
-                        <div className="contenido-promocion">
-                            <div>
-                                <h1>PLAN MENSUAL STRATER</h1>
-                                <hr/>
-                            </div>
-                            <div className="sub-cabecera">
-                                <div>
-                                <img src={require(`../../../../assets/imagenes/oficina/ifanel.png`)} alt="" className="img-ifanel" />
-                                </div>
-                                <div>
-                                    <p>Mensual starter</p>
-                                </div>
-                            </div>
-                            <div className="listado-ofertas">
-                                <ul>
-                                    <li>1 Cliente</li>
-                                    <li>1 Proyecto</li>
-                                    <li>1 Embudo de ventas</li>
-                                    <li>1 Dominio</li>
-                                    <li>Tráfico ilimitado</li>
-                                    <li>Leads ilimitados</li>
-                                    <li>Servidor gratis</li>
-                                </ul>
-                            </div>
+                        <div>
+                        <img src={require(`../../../../assets/imagenes/oficina/ifanel.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
+                        <p className="card-text">Mensual starter</p>
                         </div>
-                        <div className="container-boton">
-                            <div>
-                                <button>Escoger Plan</button>
-                            </div>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">An item</li>
+                            <li className="list-group-item">A second item</li>
+                            <li className="list-group-item">A third item</li>
+                        </ul>
+                        <div className="card-body">
+                            <a href="hola" className="card-link">Card link</a>
+                            <a href="hola" className="card-link">Another link</a>
                         </div>
-                    </div>
-                    <div className="container-promocion-individual">
-                        <div className="precio-mensual">
-                            <div className="circulo-principal">
-                                <div className="circulo-secundario">
-                                    <div>€</div>
-                                    <div>35</div>
-                                    <div>MES</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="contenido-promocion">
-                            <div>
-                                <h1>PLAN MENSUAL STRATER</h1>
-                                <hr/>
-                            </div>
-                            <div className="sub-cabecera">
-                                <div>
-                                <img src={require(`../../../../assets/imagenes/oficina/ifanel.png`)} alt="" className="img-ifanel" />
-                                </div>
-                                <div>
-                                    <p>Mensual starter</p>
-                                </div>
-                            </div>
-                            <div className="listado-ofertas">
-                                <ul>
-                                    <li>1 Cliente</li>
-                                    <li>1 Proyecto</li>
-                                    <li>1 Embudo de ventas</li>
-                                    <li>1 Dominio</li>
-                                    <li>Tráfico ilimitado</li>
-                                    <li>Leads ilimitados</li>
-                                    <li>Servidor gratis</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="container-boton">
-                            <div>
-                                <button>Escoger Plan</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container-promocion-individual">
-                        <div className="precio-mensual">
-                            <div className="circulo-principal">
-                                <div className="circulo-secundario">
-                                    <div>€</div>
-                                    <div>35</div>
-                                    <div>MES</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="contenido-promocion">
-                            <div>
-                                <h1>PLAN MENSUAL STRATER</h1>
-                                <hr/>
-                            </div>
-                            <div className="sub-cabecera">
-                                <div>
-                                <img src={require(`../../../../assets/imagenes/oficina/ifanel.png`)} alt="" className="img-ifanel" />
-                                </div>
-                                <div>
-                                    <p>Mensual starter</p>
-                                </div>
-                            </div>
-                            <div className="listado-ofertas">
-                                <ul>
-                                    <li>1 Cliente</li>
-                                    <li>1 Proyecto</li>
-                                    <li>1 Embudo de ventas</li>
-                                    <li>1 Dominio</li>
-                                    <li>Tráfico ilimitado</li>
-                                    <li>Leads ilimitados</li>
-                                    <li>Servidor gratis</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="container-boton">
-                            <div>
-                                <button>Escoger Plan</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </>
         );

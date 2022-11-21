@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import Swal from 'sweetalert2'
 
 function validarLogin(data) {
     var email = document.getElementById("exampleEmail");
@@ -8,9 +8,25 @@ function validarLogin(data) {
         const peticion = await axios.post('http://localhost/api/users/');
         const resultado = peticion.data.find(element => element.email === email.value && element.clave === clave.value);
         if (!resultado) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+              })
+            
+              setTimeout(Swal.close, 2000);
+
+              
         } else {
-            alert("Acceso Concedido");
-            window.location.href = '/dashboard';
+            Swal.fire({
+                icon: 'success',
+                title: 'Acceso Concedido',
+              })
+            
+            
+              setTimeout(()=>{
+                window.location.href = '/dashboard';
+              }, 2000);
+            
         }
 
     }
