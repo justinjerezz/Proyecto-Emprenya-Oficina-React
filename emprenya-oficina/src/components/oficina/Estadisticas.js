@@ -108,19 +108,19 @@ export default function Estadisticas(){
                                         <h4>CONTRATA</h4>
                                 </div>
                                 <div className="col-12 row contrata-herramientas">
-                                    <div className="col-3 text-center">
+                                    <div className="col-md-3 col-sm-12 text-center">
                                         <img src={require("../../assets/imagenes/impulsaya.png")} alt="herramientas" className="w-75" height="60"/>
                                         <p className="contrata-impulsaya">HERRAMIENTAS</p>
                                     </div>
-                                    <div className="col-3 text-center">
+                                    <div className="col-md-3 col-sm-12 text-center">
                                         <img src={require("../../assets/imagenes/aprenya.png")} alt="herramientas" className="w-75" height="60"/>
                                         <p className="contrata-aprenya">FORMACION</p>
                                     </div>
-                                    <div className="col-3 text-center">
+                                    <div className="col-md-3 col-sm-12 text-center">
                                         <img src={require("../../assets/imagenes/lanzaya.png")} alt="herramientas" className="w-75" height="60"/>
                                         <p className="contrata-lanzaya">SERVICIOS</p>
                                     </div>
-                                    <div className="col-3 text-center">
+                                    <div className="col-md-3 col-sm-12 text-center">
                                         <img src={require("../../assets/imagenes/blockchain.png")} alt="herramientas" className="w-75" height="60"/>
                                         <p className="contrata-blockchain">BLOCKCHAIN</p>
                                     </div>
@@ -201,7 +201,7 @@ export default function Estadisticas(){
                         
                         {/*Compras/datos */}
                         <div className="row stats-datos">
-                            <div className="col-6 datos-container">
+                            <div className="col-md-6 col-sm-12 datos-container">
                                 <div className="datos-portlet mr-20">
                                     <div className="datos-head w-100">
                                         <h3>Registros</h3>
@@ -254,7 +254,7 @@ export default function Estadisticas(){
                             </div>
 
 
-                            <div className="col-6 compras-container">
+                            <div className="col-md-6 col-sm-12 compras-container">
                                 <div className="compras-portlet">
                                     <div className="compras-head w-100 mr-20">
                                         <h3>Compras</h3>

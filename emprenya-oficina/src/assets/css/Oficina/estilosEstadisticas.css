@@ -452,3 +452,32 @@
 canvas{
     width: 100%;
 }
+
+@media(max-width:420px){
+    .icono-datos{
+        margin-left: -15px;
+    }
+
+    .datos-body-subtitulo{
+        font-size: 10px;
+    }
+
+    .icono-compras{
+        margin-left: -10px;
+    }
+
+    .compras-body-num{
+        font-size: 12px;
+        width:50px;
+        margin-left:-20px;
+    }
+
+    .compras-container{
+        margin-left: -15px;
+    }
+
+    .card-body-imagen img{
+        width:150px;
+        height:150px;
+    }
+}
