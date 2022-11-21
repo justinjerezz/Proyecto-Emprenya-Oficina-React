@@ -25,7 +25,7 @@ class Dashboard extends React.Component {
                         </div>
                         <div className="contenedorRender">
                             <Routes>
-                                <Route path="estadisticas" element={<Estadisticas></Estadisticas>}></Route>
+                                
                                 <Route path="lanzaya" element={<IframeLanzaYa></IframeLanzaYa>}></Route>
                                 <Route path="blockchainya" element={<IframeBlockChainYa></IframeBlockChainYa>}></Route>
                                 <Route path="ifanel/*" element={<Ifanel></Ifanel>}></Route>

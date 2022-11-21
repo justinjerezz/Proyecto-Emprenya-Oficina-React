@@ -109,3 +109,8 @@
 .img-crece-crypto {
     width: 29%;
 }
+
+.card-body{
+    display: flex !important;
+    flex-direction: column !important;
+}
