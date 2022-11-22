@@ -71,7 +71,7 @@ export default function Estadisticas(){
                                     </div>
                                     <div className="col-12 row card-body">
                                             <div className="col-md-6 card-body-imagen">
-                                                <img src={require("../../assets/imagenes/oficina/user-blanco.png")} alt="user"/>
+                                                <img src={require("../../assets/imagenes/oficina/user-blanco.png")} alt="user" className="user"/>
                                             </div>
                                             <div className="col-md-6 card-body-texto">
                                                 <p><b>Nombre:</b> nombre</p>

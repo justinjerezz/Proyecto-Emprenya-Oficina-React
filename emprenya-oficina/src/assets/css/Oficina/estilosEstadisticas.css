@@ -453,6 +453,10 @@ canvas{
     width: 100%;
 }
 
+.user{
+    filter: drop-shadow(8px 8px 4px grey);
+}
+
 @media(max-width:420px){
     .icono-datos{
         margin-left: -15px;
