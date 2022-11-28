@@ -10,7 +10,7 @@ export default function FormRecoverPassword() {
     return (
         <div class="formPass-contenedor">
             <div class='bg-login formPass-container d-flex align-items-center'>
-                <Form className=''>
+                <Form className='animate__animated animate__flipInX'>
                     <div className='formPass-header'>
                         <h3 className='formPass-tittle'>Olvidó el password?</h3>
                         <p className='mT-3'>Ingrese Email y Usuario para restablecer contraseña.</p>

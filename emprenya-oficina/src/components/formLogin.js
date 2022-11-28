@@ -24,8 +24,8 @@ export default function Formulario() {
 
     return (
         <div className='containerGeneral' id='containerGeneralForm'>
-            <Form className='cajaFormulario' onSubmit={handleSubmit}>
-                <FormGroup className='containerFormulario'>
+            <Form className='cajaFormulario ' onSubmit={handleSubmit}>
+                <FormGroup className='containerFormulario animate__animated animate__flipInX'>
                     <div>
                         <img src={require(`../assets/imagenes/emprenya.png`)} alt="Logo-Empren-Ya" className='img-empren-ya' />
                     </div>
