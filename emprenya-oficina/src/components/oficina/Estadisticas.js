@@ -8,6 +8,8 @@ import { SlDrawer, SlHandbag } from "react-icons/sl";
 import { BiCoinStack } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
+import {Grafica1} from './grafica1'
+import {Grafica2} from './grafica2'
 
 export default function Estadisticas(){
         const [dropdown3, setDropdown3]=useState(false);
@@ -247,8 +249,8 @@ export default function Estadisticas(){
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="datos-canvas" >a
-
+                                    <div className="datos-canvas" >
+                                        <Grafica1 />
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +309,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas">
-                                        a
+                                        <Grafica2 />
                                     </div>
                                 </div>
                             </div>

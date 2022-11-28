@@ -285,7 +285,7 @@
 }
 
 .datos-canvas{
-    height:150px;
+    height:390px;
     display:block;
 }
 
@@ -349,7 +349,7 @@
 }
 
 .compras-canvas{
-    height:150px;
+    height:390px;
     display:block;
 }
 
@@ -478,6 +478,10 @@ canvas{
 
     .card-body-imagen img{
         width:150px;
+        height:150px;
+    }
+
+    .datos-canvas{
         height:150px;
     }
 }
