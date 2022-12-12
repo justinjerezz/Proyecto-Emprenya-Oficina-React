@@ -63,7 +63,7 @@ export function Grafica1(){
                 {
                 label: 'Mis datos',
                 data: scores,
-                backgroundColor: "blue",
+                backgroundColor: "red",
                 showLine: false,
                 width:"100%",
                 height:"100%"

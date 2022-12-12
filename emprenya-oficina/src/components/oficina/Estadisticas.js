@@ -65,7 +65,7 @@ export default function Estadisticas(){
                                 </div>
                             </div>
                         </div>
-                        <div className="row"> 
+                        <div className="row user-row"> 
                             <div className="col-12  col-md-6">
                                 <div className="card row">
                                     <div className="col-12 card-header">
@@ -176,7 +176,7 @@ export default function Estadisticas(){
                                     </div>
                                 </div>
                                 <div className="col-md-4 contrata-divs">
-                                    <div className="card-contrata row  mr-20">
+                                    <div className="card-contrata row carta3">
                                         <div className="col-3 gris-claro-contrata">
                                             <div className="panel-izq-contrata">
 

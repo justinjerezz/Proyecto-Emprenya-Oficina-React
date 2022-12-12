@@ -270,7 +270,7 @@
     margin:auto;
     display:block;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 14px;
     color: #716aca;
     width:100%;
     text-align: right !important;
@@ -472,10 +472,6 @@ canvas{
         margin-left:-20px;
     }
 
-    .compras-container{
-        margin-left: -15px;
-    }
-
     .card-body-imagen img{
         width:150px;
         height:150px;
@@ -483,5 +479,151 @@ canvas{
 
     .datos-canvas{
         height:150px;
+    }
+
+    .stats-contrata {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 350px;
+    }
+
+    .card {
+        margin-left:-25px;
+        margin-bottom: 20px;
+    }
+
+    .carta3{
+        margin-right:20px;
+    }
+
+    .user-row{
+        width:350px;
+    }
+
+    .stats-datos{
+        width: 340px;
+    }
+
+    .compras-container{
+        width: 95%;
+    }
+
+    .compras-body {
+        min-height: 350px;
+    }
+
+    .datos-body {
+        min-height: 350px;
+    }
+
+    .container-button{
+        display:block;
+        margin-right: -40px;
+        margin-bottom: 20px;
+    }
+
+    .contrata-header h4 {
+        font-size: 26px;
+    }
+
+    .card-body-imagen {
+        display: inline-block;
+        padding-left: 0px;
+    }
+
+    .card-body-imagen img {
+        display: block;
+        margin: auto;
+    }
+
+    .subheader-stats {
+        margin-right: -60px;
+        margin-bottom: 20px;
+    }
+
+    .contrata-tipo-servicios {
+        width: 225px !important;
+    }
+
+    .contrata-tipo-categoria {
+        width: 225px !important;
+    }
+
+}
+
+@media(max-width:768px){
+    .datos-canvas {
+        height: 150px;
+        display: block;
+    }
+
+    .card-body-texto {
+        display: inline-block;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .card-body-imagen {
+        display: inline-block;
+        padding-left: 20px;
+    }
+
+    .contrata-impulsaya {
+        font-size: 18px;
+        color: #69B4F5;
+    }
+
+    .contrata-tipo-servicios {
+        font-size: 10px;
+    }
+
+    .contrata-tipo-categoria {
+        font-size: 10px;
+    }
+
+    .azul-oscuro-contrata p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .contrata-numero h1 {
+        font-size: 18px !important;
+    }
+
+    .gris-oscuro-contrata p {
+        font-size: 10px;
+    }
+
+    .azul-claro-contrata p {
+        font-size: 10px;
+    }
+
+    .azul-claro-contrata {
+        width: 104% !important;
+    }
+
+    .gris-oscuro-contrata {
+        width: 104% !important;
+    }
+
+    .compras-body-num {
+        font-size: 11px;
+        width: 147%;
+    }
+
+    .icono-datos {
+        margin-left: -15px;
+    }
+
+    .icono-compras {
+        margin-left: -5px;
+    }
+
+    .datos-body-titulo {
+        font-size: 13px;
+    }
+
+    .datos-body-subtitulo {
+        font-size: 11px;
     }
 }
