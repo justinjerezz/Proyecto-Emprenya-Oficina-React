@@ -50,19 +50,19 @@ export default function HeaderPrincipal(){
                                             <img src={require(`../../assets/imagenes/oficina/user-emprenya.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
                                         </DropdownToggle>
                                         <DropdownMenu className="container-menu">
-                                            <DropdownItem className="container-card">
-                                                <div className="card">
-                                                    <div className="card-body">
-                                                        <div className="card-datos">
-                                                            <div className="card-imagen">
+                                            <DropdownItem className="container-cabecera-card">
+                                                <div className="cabecera-card">
+                                                    <div className="cabecera-card-body">
+                                                        <div className="cabecera-card-datos">
+                                                            <div className="cabecera-card-imagen">
                                                                 <img src={require(`../../assets/imagenes/oficina/user-blanco.png`)} alt="usuario" className=" header_user" id="dropdownMenuImg1"/>
                                                             </div>
-                                                            <div className="card-texto">
+                                                            <div className="cabecera-card-texto">
                                                                 <span>Nombre  apellidos</span><br></br>
                                                                 <a href="/">sagfyaguig@widitek.com</a>
                                                             </div>
                                                         </div>
-                                                    <div className="card-acciones">
+                                                    <div className="cabecera-card-acciones">
                                                     <br/>
                                                         <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/icone-utilisateur-gris.png`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>Mis datos</span></a></div><br/>
                                                         <div><a href='/' class="header-enlaces"><img src={require(`../../assets/imagenes/oficina/formulario.webp`)} alt="usuario" className=" header_icon" id="dropdownMenuImg1"/><span>subscripciones activas</span></a></div><br/>

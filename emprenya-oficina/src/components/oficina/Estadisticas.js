@@ -6,8 +6,9 @@ import { HiOutlineUserCircle } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { FiUsers } from "react-icons/fi";
 import {Dropdown, DropdownItem, DropdownMenu, DropdownToggle} from "reactstrap";
-// import {Grafica1} from './grafica1'
-// import {Grafica2} from './grafica2'
+import {Grafica1} from './grafica1'
+import {Grafica2} from './grafica2'
+import "../../assets/css/Oficina/estilosEstadisticas.css"
 
 export default function Estadisticas(){
         const [dropdown3, setDropdown3]=useState(false);
@@ -248,7 +249,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas" >
-                                        {/* <Grafica1 /> */}
+                                        <Grafica1 />
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +308,7 @@ export default function Estadisticas(){
                                         </div>
                                     </div>
                                     <div className="datos-canvas">
-                                        {/* <Grafica2 /> */}
+                                        <Grafica2 />
                                     </div>
                                 </div>
                             </div>
