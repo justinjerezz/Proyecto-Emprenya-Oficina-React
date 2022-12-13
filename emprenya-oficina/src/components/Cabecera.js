@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 import '../assets/css/General/style.css'
 class Cabecera extends React.Component {
     render() {
@@ -11,11 +12,10 @@ class Cabecera extends React.Component {
                         {/* Link que redirecciona a afiliados */}
                         <a href='https://emprenya.com/afiliados' className="mL-auto mR-2 c-white text-decoration-none">Afiliados</a>
                         <div className='registro'>
-                            {/*link a registros redirecciones a la direccion de registro*/}
-                            <Link to='./registro' className="mL-auto mR-1 c-white text-decoration-none">Registro</Link>
+                            <Link to={"/registro"} id="m_login_forget_password" class="m-link link-olvido-password" >REGISTRO</Link>
                         </div>
                         {/* Link a login, redirecciona a la direccion de login */}
-                            <Link to="./" className="c-white text-decoration-none">Login</Link>
+                        <Link to={"/"} id="m_login_forget_password" class="m-link link-olvido-password" >login</Link>
                     </div>
                 </div>
                 <div className="nav__center container d-flex justify-content-between align-items-center pX-2 mT-1 gap-2">

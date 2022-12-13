@@ -5,6 +5,7 @@ import Idiomas from './components/Idiomas';
 import Formulario from './components/formLogin';
 import Footer from './components/Footer';
 import FormRecoverPassword from './components/formRecoverPassword';
+import FormRegistro from './components/formRegistro';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*Importar estilos */
@@ -40,6 +41,17 @@ function App() {
                 <Idiomas></Idiomas>
                 <FormRecoverPassword></FormRecoverPassword>
                 <modalValidacionlLogin></modalValidacionlLogin>
+                <Footer></Footer>
+              </>
+            }>
+          </Route>
+
+          <Route path='/registro'
+            element={
+              <>
+                <Cabecera></Cabecera>
+                <Idiomas></Idiomas>
+                <FormRegistro></FormRegistro>
                 <Footer></Footer>
               </>
             }>
