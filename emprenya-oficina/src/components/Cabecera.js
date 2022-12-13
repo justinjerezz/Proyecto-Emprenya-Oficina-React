@@ -26,22 +26,22 @@ class Cabecera extends React.Component {
                         </div>
                         <div className="className=box--2 d-flex gap-2">
                         <div>
-                                <a href="/impulsaya">
+                                <a href="/impulsaya"  style={{ marginRight: "15px" }}>
                                     <img src={require(`../assets/imagenes/impulsaya.png`)} alt="logo" className="logo--2"></img>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://lanzaya.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://lanzaya.com" target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
                                     <img src={require(`../assets/imagenes/lanzaya.png`)} alt="logo" className='logo--3'></img>
                                 </a>
                             </div>
                             <div>
-                                <a href="/">
+                                <a href="/" style={{ marginRight: "15px" }}>
                                     <img src={require(`../assets/imagenes/aprenya.png`)} alt="logo" className='logo--4'></img>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://blockchainya.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://blockchainya.com" target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
                                     <img src={require(`../assets/imagenes/blockchain.png`)} alt="logo" className='logo--5'></img>
                                 </a>
                             </div>

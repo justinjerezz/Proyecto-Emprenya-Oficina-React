@@ -12,7 +12,7 @@ export default function FormRegistro() {
             <div class='bg-login formPass-container d-flex align-items-center'>
                 <Form className=''>
                     <div className='formPass-header'>
-                        <h3 className='formPass-tittle'>Olvidó el password?</h3>
+                        <h3 className='formPass-tittle'>Registro</h3>
                         <p className='mT-3'>Ingrese Email y Usuario para restablecer contraseña.</p>
                     </div>
                     <FormGroup>
