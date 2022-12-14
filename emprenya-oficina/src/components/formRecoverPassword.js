@@ -25,22 +25,11 @@ export default function FormRecoverPassword() {
                         />
                     </FormGroup>
                     {' '}
-                    <FormGroup>
-
-                        <Input
-                            id="exampleUsuario"
-                            name="usuario"
-                            placeholder="Usuario"
-                            type="text"
-                            className='formPass-input mT-3'
-                        />
-                    </FormGroup>
-                    {' '}
                     <div class="formPass-botones">
                         <Button className='formPass-boton bg-blue mT-3'>
                             Enviar
                         </Button>
-                        <Link to="/">
+                        <Link to="/" className='formPass-enlace'>
                             <Button className='formPass-boton bg-blue mT-3'>
                                 Cancelar
                             </Button>

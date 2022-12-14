@@ -21,7 +21,7 @@ export default function FormRegistro() {
                             name="email"
                             placeholder="E-mail"
                             type="text"
-                            className='formPass-input mT-3'
+                            className='input-form mT-3'
                         />
                     </FormGroup>
                     {' '}
@@ -32,7 +32,7 @@ export default function FormRegistro() {
                             name="usuario"
                             placeholder="Usuario"
                             type="text"
-                            className='formPass-input mT-3'
+                            className='input-form mT-3'
                         />
                     </FormGroup>
                     {' '}

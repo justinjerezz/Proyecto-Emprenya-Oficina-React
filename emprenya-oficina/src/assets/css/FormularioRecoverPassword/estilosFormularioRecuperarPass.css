@@ -53,6 +53,17 @@
   display: inline;
   align-items: center;
   justify-content: center;
+  background-color: #3c66b9;
+  color:white;
+}
+
+.formPass-boton:hover{
+  color: #3c66b9 !important;
+  background-color:white;
+}
+
+.formPass-enlace{
+  text-decoration: none;
 }
 
 .formPass-contenedor{
